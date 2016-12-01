@@ -1,0 +1,47 @@
+{
+  "name": "nel",
+  "version": "0.0.0",
+  "description": "NeL library",
+  "registry": "github",
+  "scripts": {
+    "lint": "jshint src/**/*.js test/**/*.js",
+    "pretest": "npm run lint",
+    "test": "mocha --recursive --compilers js:babel/register --recursive */test/**/*.js",
+    "postinstall": "jspm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerotacg/nel.git"
+  },
+  "contributors": [
+    {
+      "name": "Tobias Peters",
+      "email": "tobias.peters@kreativeffekt.at"
+    }
+  ],
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zerotacg/nel/issues"
+  },
+  "homepage": "https://github.com/zerotacg/nel#readme",
+  "devDependencies": {
+    "babel": "^5.8.24",
+    "chai": "^3.4.1",
+    "jshint": "^2.8.0",
+    "jspm": "^0.16.15",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  },
+  "jspm": {
+    "name": "nel",
+    "version": "master",
+    "directories": {
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
