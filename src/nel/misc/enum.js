@@ -1,5 +1,5 @@
 /**
- * @function nlmisc.Enum
+ * @class nel.misc.Enum
  * @param {object} definition
  */
 export default class Enum {

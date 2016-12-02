@@ -2,11 +2,10 @@
   "name": "nel-js",
   "version": "0.0.0",
   "description": "NeL library",
-  "registry": "github",
   "scripts": {
-    "lint": "jshint src/**/*.js test/**/*.js",
+    "lint": "echo TODO linting",
     "pretest": "npm run lint",
-    "test": "mocha --recursive --compilers js:babel/register --recursive */test/**/*.js",
+    "test": "mocha --opts mocha.opts",
     "postinstall": "jspm install"
   },
   "repository": {
@@ -25,19 +24,19 @@
   },
   "homepage": "https://github.com/zerotacg/nel#readme",
   "devDependencies": {
-    "babel": "^5.8.24",
-    "chai": "^3.4.1",
-    "jshint": "^2.8.0",
-    "jspm": "^0.16.15",
-    "mocha": "^2.3.4",
-    "sinon": "^1.17.2",
+    "babel": "^6.5.2",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "jspm": "^0.16.48",
+    "mocha": "^3.2.0",
+    "npm-check": "^5.4.0",
+    "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0"
   },
   "jspm": {
-    "name": "nel",
-    "version": "master",
-    "directories": {
-    },
+    "configFile": "jspm.conf.js",
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
