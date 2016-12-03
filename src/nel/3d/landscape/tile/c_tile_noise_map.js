@@ -1,5 +1,5 @@
 /**
- * @class nl3d.landscape.CTileNoiseMap
+ * @class nel.3d.landscape.CTileNoiseMap
  */
 export default class CTileNoiseMap {
 }

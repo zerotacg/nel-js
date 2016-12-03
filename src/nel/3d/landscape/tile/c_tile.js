@@ -2,7 +2,7 @@ import Bitmap from "nel/3d/landscape/tile/bitmap";
 import Enum from "nel/misc/enum";
 
 /**
- * @namespace nl3d.landscape
+ * @namespace nel.3d.landscape
  * @enum
  */
 var Flags = new Enum({
@@ -12,13 +12,13 @@ var Flags = new Enum({
 const VERSION = 4;
 
 /**
- * @class nl3d.landscape.CTile
+ * @class nel.3d.landscape.CTile
  * @implements {nlio.ISerializable}
  */
 export default class CTile {
     /**
      * @param {nlio.IReadStream} stream
-     * @return {nl3d.landscape.CTile}
+     * @return {nel.3d.landscape.CTile}
      */
     static readFrom( stream ) {
         var instance = new CTile();

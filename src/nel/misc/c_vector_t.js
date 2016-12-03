@@ -1,7 +1,7 @@
 import AModel from "nel/io/a_model";
 
 /**
- * @class nlmisc.CVector<T>
+ * @class nel.misc.CVector<T>
  */
 export default class CVector extends AModel {
     static template( type ) {

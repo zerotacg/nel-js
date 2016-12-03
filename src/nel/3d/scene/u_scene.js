@@ -1,10 +1,10 @@
 
 /**
- * @interface nl3d.scene.UScene
+ * @interface nel.3d.scene.UScene
  */
 
 /**
  * @method
- * @name nl3d.scene.UScene#createLandscape
- * @return {nl3d.landscape.ULandscape}
+ * @name nel.3d.scene.UScene#createLandscape
+ * @return {nel.3d.landscape.ULandscape}
  */

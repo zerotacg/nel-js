@@ -1,23 +1,23 @@
 /**
- * @class nl3d.landscape.CLandscapeUser
- * @implements {nl3d.landscape.ULandscape}
+ * @class nel.3d.landscape.CLandscapeUser
+ * @implements {nel.3d.landscape.ULandscape}
  */
 export default class CLandscapeUser {
 
     /**
      * @constructor
-     * @param {nl3d.scene.CScene} scene
+     * @param {nel.3d.scene.CScene} scene
      */
     constructor( scene ) {
         console.assert(scene);
 
         /**
-         * @type {nl3d.scene.CScene}
+         * @type {nel.3d.scene.CScene}
          * @private
          */
         this._scene = scene;
         /**
-         * @type {nl3d.landscape.CLandscapeModel}
+         * @type {nel.3d.landscape.CLandscapeModel}
          * @private
          */
         this._model = scene.createLandscapeModel();

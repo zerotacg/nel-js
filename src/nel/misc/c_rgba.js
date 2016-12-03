@@ -2,7 +2,7 @@ import AModel from "nel/io/a_model";
 import { uint8 } from "nel/io/types";
 
 /**
- * @class nlmisc.CRGBA
+ * @class nel.misc.CRGBA
  * @implements nlio.ISerializable
  */
 export default class CRGBA extends AModel {

@@ -1,7 +1,7 @@
 import Enum from "nel/misc/enum";
 
 /**
- * @namespace nl3d.material
+ * @namespace nel.3d.material
  * @enum
  */
 var ZFunction = new Enum({

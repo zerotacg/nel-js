@@ -5,7 +5,7 @@ import CVector from "nel/misc/c_vector";
 const VERSION = 0;
 
 /**
- * @class nlmisc.CAABB
+ * @class nel.misc.CAABB
  */
 export default class CAABB extends AModel {
 }

@@ -5,13 +5,13 @@ import CRGBA from "nel/misc/c_rgba";
 const VERSION = 0;
 
 /**
- * @class nl3d.landscape.CTileFar
+ * @class nel.3d.landscape.CTileFar
  * @implements {nlio.ISerializable}
  */
 export default class CTileFar {
     /**
      * @param {nlio.IReadStream} stream
-     * @return {nl3d.landscape.CTile}
+     * @return {nel.3d.landscape.CTile}
      */
     static readFrom( stream ) {
         var instance = new CTileFar();
@@ -22,7 +22,7 @@ export default class CTileFar {
 
     /**
      * @param {nlio.IWriteStream} stream
-     * @param {nl3d.landscape.CTile} instance
+     * @param {nel.3d.landscape.CTile} instance
      */
     static writeTo( stream, instance ) {
         instance.writeTo( stream );

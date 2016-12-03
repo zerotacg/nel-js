@@ -7,7 +7,7 @@ const VERSION = 4;
 const HEADER = "BANK";
 
 /**
- * @class nl3d.landscape.CTileBank
+ * @class nel.3d.landscape.CTileBank
  * @implements {nlio.IReadable}
  */
 export default class CTileBank {

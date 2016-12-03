@@ -4,7 +4,7 @@ const HEADER = "FAR_BANK";
 const VERSION = 0;
 
 /**
- * @class nl3d.landscape.CTileFarBank
+ * @class nel.3d.landscape.CTileFarBank
  * @implements {nlio.ISerializable}
  */
 export default class CTileFarBank {

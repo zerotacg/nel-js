@@ -2,7 +2,7 @@ import AModel from "nel/io/a_model";
 import { float } from "nel/io/types";
 
 /**
- * @class nlmisc.CVector
+ * @class nel.misc.CVector
  */
 export default class CVector extends AModel {
 }

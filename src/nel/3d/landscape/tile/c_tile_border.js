@@ -4,13 +4,13 @@ import CRGBA from "nel/misc/c_rgba";
 const VERSION = 0;
 
 /**
- * @class nl3d.landscape.CTileBorder
+ * @class nel.3d.landscape.CTileBorder
  * @implements {nlio.ISerializable}
  */
 export default class CTileBorder {
     /**
      * @param {nlio.IReadStream} stream
-     * @return {nl3d.landscape.CTileBorder}
+     * @return {nel.3d.landscape.CTileBorder}
      */
     static readFrom( stream ) {
         var instance = new CTileBorder();

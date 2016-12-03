@@ -10,7 +10,7 @@ import CVector3s from "nel/misc/c_vector_3s";
 const VERSION = 7;
 
 /**
- * @class nl3d.landscape.zone.CPatch
+ * @class nel.3d.landscape.zone.CPatch
  * @implements nlio.ISerializable
  */
 export default class CPatch extends AModel {

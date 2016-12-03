@@ -1,5 +1,5 @@
 /**
- * @class nlmisc.CArray
+ * @class nel.misc.CArray
  */
 export default class CArray {
     static template( type ) {

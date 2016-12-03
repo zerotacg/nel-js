@@ -1,13 +1,13 @@
 const VERSION = 0;
 
 /**
- * @class nl3d.landscape.CTileLand
+ * @class nel.3d.landscape.CTileLand
  * @implements {nlio.ISerializable}
  */
 export default class CTileLand {
     /**
      * @param {nlio.IReadStream} stream
-     * @return {nl3d.landscape.CTileLand}
+     * @return {nel.3d.landscape.CTileLand}
      */
     static readFrom( stream ) {
         var instance = new CTileLand();

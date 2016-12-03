@@ -1,7 +1,7 @@
 import Enum from "nel/misc/enum";
 
 /**
- * @namespace nl3d.landscape
+ * @namespace nel.3d.landscape
  * @enum
  */
 var Transition = new Enum({

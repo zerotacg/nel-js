@@ -1,13 +1,13 @@
 const VERSION = 1;
 
 /**
- * @class nl3d.landscape.CTileSetTransition
+ * @class nel.3d.landscape.CTileSetTransition
  * @implements {nlio.ISerializable}
  */
 export default class CTileSetTransition {
     /**
      * @param {nlio.IReadStream} stream
-     * @return {nl3d.landscape.CTileSetTransition}
+     * @return {nel.3d.landscape.CTileSetTransition}
      */
     static readFrom( stream ) {
         var instance = new CTileSetTransition();

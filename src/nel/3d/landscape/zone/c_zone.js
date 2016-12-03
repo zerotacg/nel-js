@@ -14,7 +14,7 @@ const VERSION = 4;
 const HEADER = "ZONE";
 
 /**
- * @class nl3d.landscape.zone.CZone
+ * @class nel.3d.landscape.zone.CZone
  * @implements nlio.ISerializable
  */
 export default class CZone extends AModel {

@@ -3,7 +3,7 @@ import { uint8 } from "nel/io/types";
 import CArray from "nel/misc/c_array";
 
 /**
- * @class nl3d.landscape.zone.CTileLightInfluence
+ * @class nel.3d.landscape.zone.CTileLightInfluence
  * @implements nlio.ISerializable
  */
 export default class CTileLightInfluence extends AModel {

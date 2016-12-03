@@ -7,13 +7,13 @@ import Transition from "nel/3d/landscape/tile/transition";
 const VERSION = 5;
 
 /**
- * @class nl3d.landscape.CTileSet
+ * @class nel.3d.landscape.CTileSet
  * @implements {nlio.ISerializable}
  */
 export default class CTileSet {
     /**
      * @param {nlio.IReadStream} stream
-     * @return {nl3d.landscape.CTileSet}
+     * @return {nel.3d.landscape.CTileSet}
      */
     static readFrom( stream ) {
         var instance = new CTileSet();

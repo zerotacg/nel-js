@@ -5,13 +5,13 @@ const EMPTY_DISPLACEMENT_MAP = "EmptyDisplacementMap";
 const VERSION = 0;
 
 /**
- * @class nl3d.landscape.CTileNoise
+ * @class nel.3d.landscape.CTileNoise
  * @implements {nlio.ISerializable}
  */
 export default class CTileNoise {
     /**
      * @param {nlio.IReadStream} stream
-     * @return {nl3d.landscape.CTileNoise}
+     * @return {nel.3d.landscape.CTileNoise}
      */
     static readFrom( stream ) {
         var instance = new CTileNoise();

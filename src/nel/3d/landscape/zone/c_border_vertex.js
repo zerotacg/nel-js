@@ -5,7 +5,7 @@ import { uint16 } from "nel/io/types";
 const VERSION = 0;
 
 /**
- * @class nl3d.landscape.zone.CBorderVertex
+ * @class nel.3d.landscape.zone.CBorderVertex
  * @implements nlio.ISerializable
  */
 export default class CBorderVertex extends AModel {
