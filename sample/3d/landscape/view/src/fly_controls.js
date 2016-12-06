@@ -1,4 +1,4 @@
-import THREE from "three";
+import * as THREE from "three";
 
 /**
  * @author James Baicoianu / http://www.baicoianu.com/

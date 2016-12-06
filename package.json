@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "description": "NeL library",
   "scripts": {
+    "env": "env",
     "lint": "echo TODO linting",
     "pretest": "npm run lint",
-    "test": "mocha --opts mocha.opts",
+    "test": "istanbul cover _mocha -- --opts mocha.opts",
     "postinstall": "jspm install"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "babel-preset-latest": "^6.16.0",
     "babel-register": "^6.18.0",
     "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
     "jshint": "^2.9.4",
     "jspm": "^0.16.48",
     "mocha": "^3.2.0",
@@ -37,6 +39,9 @@
   },
   "jspm": {
     "configFile": "jspm.conf.js",
+    "dependencies": {
+      "three": "github:mrdoob/three.js@master"
+    },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",

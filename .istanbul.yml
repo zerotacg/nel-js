@@ -1,0 +1,9 @@
+---
+instrumentation:
+    root: src
+reporting:
+    print: summary
+    reports:
+        - html
+        - lcov
+    dir: ./build/coverage
